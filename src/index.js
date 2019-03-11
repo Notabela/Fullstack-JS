@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './components/App'
 
 ReactDOM.render(
-    <h2>Hello React with JSX { Math.random() }</h2>,
+    <App />,
     document.querySelector('#root')
 )
