@@ -6,7 +6,7 @@ import apiRouter from './api'
 
 const server = express()
 
-import serverRender from './serverRenders'
+import serverRender from './serverRenders343434343434'
 
 server.get('/', (req, res) => {
     serverRender()
