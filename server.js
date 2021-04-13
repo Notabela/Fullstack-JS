@@ -11,7 +11,7 @@ import serverRender from './serverRenders343434343434'
 server.get('/', (req, res) => {
     serverRender()
     .then( content => {
-        res.render('index', {content})
+        res.render('indexssss', {content})
     })
     .catch(console.error)
 })
